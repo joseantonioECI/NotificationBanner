@@ -18,12 +18,6 @@
 
 import UIKit
 
-#if CARTHAGE_CONFIG
-    import MarqueeLabelSwift
-#else
-    import MarqueeLabel
-#endif
-
 public class StatusBarNotificationBanner: BaseNotificationBanner {
     
     public override var bannerHeight: CGFloat {

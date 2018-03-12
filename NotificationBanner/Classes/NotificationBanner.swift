@@ -19,12 +19,6 @@
 import UIKit
 import SnapKit
 
-#if CARTHAGE_CONFIG
-    import MarqueeLabelSwift
-#else
-    import MarqueeLabel
-#endif
-
 public class NotificationBanner: BaseNotificationBanner {
     
     /// Notification that will be posted when a notification banner will appear
